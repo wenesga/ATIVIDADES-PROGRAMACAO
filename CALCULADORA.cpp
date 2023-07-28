@@ -6,7 +6,7 @@ int main(){
     
 	//Define código UTF8 do Windows
 	UINT CPAGE_UTF8 = 65001;
-  	UINT CPAGE_DEFAULT = GetConsoleOutputCP();
+	UINT CPAGE_DEFAULT = GetConsoleOutputCP();
 	SetConsoleOutputCP(CPAGE_UTF8);
 	
     printf("Digite o 1º número: ");
