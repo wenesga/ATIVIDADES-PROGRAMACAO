@@ -5,7 +5,7 @@ int main(){
     int num1, num2, som, sub, mul, div;
     
 	//Define código UTF8 do Windows
-  	UINT CPAGE_UTF8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
   	UINT CPAGE_DEFAULT = GetConsoleOutputCP();
 	SetConsoleOutputCP(CPAGE_UTF8);
 	
@@ -25,7 +25,6 @@ int main(){
     printf("A Divisão é: %i\n", div );
     
     return 0;
-	
 	//Codificação do Windows
   	SetConsoleOutputCP(CPAGE_DEFAULT);
 }
