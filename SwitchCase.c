@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 main(void){
-     setlocale(LC_ALL, "Portuguese");
+	
+     setlocale(LC_ALL, "");
+     
      char ch;
 
      printf("MENU de Escolhas\n\n");
