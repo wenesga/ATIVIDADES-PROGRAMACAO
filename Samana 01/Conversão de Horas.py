@@ -4,6 +4,8 @@ UFT - Lincenciatura em Computação
 Disc: Programação de Computadores
 @Autor: Wenes Aquino - 2º Períldo
 """
+cls = lambda: print("\033[2J\033[;H", end='') #Função para limpa o console
+cls() #Limpa o console
 
 inteiro = int(input("Digite quantidade de horas: "))
 
