@@ -8,8 +8,31 @@ limpa() #Limpa console
 """
 #--------------------------------------------------------------------
 
-numero1 = int(input("Digite um numero: "))
-numero2 = int(input("Digite outro numero: "))
-resultado = numero1 * numero2
+alimento = ["arroz","carne","feijao"]
 
-print(f"{numero1} x {numero2} = {resultado}")
+print(alimento)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

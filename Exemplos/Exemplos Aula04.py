@@ -15,8 +15,9 @@ Federal
 Tocantins
 """ #Texto com linhas quebrada
 
-ufta = "Universidade \nFederal \nTocantins"
-#Texto com linhas quebrada
+ufta = "Universidade \nFederal \nTocantins" #Texto com linhas quebrada
+
+aspas = "Mostra (aspas) entre texto \"texto entre aspas\"." #Aspas entre texto
 
 print(texto.upper())       #Caixa Alta
 print(texto.lower())       #Caixa Baixa
@@ -38,6 +39,7 @@ print(x)             #Mostra resultado da verificação
 print(uft) #Mostra texto linha quebrada
 print(ufta) #Mostra texto linha quebrada
 
+print(aspas) #Mostra Aspas entre texto
 
 
 
