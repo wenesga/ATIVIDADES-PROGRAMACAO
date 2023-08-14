@@ -30,3 +30,4 @@ Resultados: {num1} + {num2} = {soma}
    resto de {num1} % {num2} = {rest}
   potência de {num1}^{num2} = {pote}
 """)
+# TESTE
