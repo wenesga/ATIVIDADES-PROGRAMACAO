@@ -1,31 +1,13 @@
-def calculate():
-    operation = input('''
-Por favor, digite a operação matemática que você gostaria de completar:
-+ para adição
-- para subtração
-* para multiplicação
-/ para divisão
-''')
+a = input("Digite o primeiro número: ") #Entrada usuário
+b = input("Digite o sengundo número: ") #Entrada usuário
 
-    number_1 = int(input('Por favor insira o primeiro número: '))
-    number_2 = int(input('Por favor, digite o segundo número: '))
+soma = int(a) + int(b) #Operação
+subt = int(a) - int(b) #Operação
+mult = int(a) * int(b) #Operação
+divs = int(a) / int(b) #Operação
+print() #Espaço
 
-    if operation == '+':
-        print('{} + {} = '.format(number_1, number_2)) 
-        print(number_1 + number_2)
-
-    elif operation == '-':
-        print('{} - {} = '.format(number_1, number_2))
-        print(number_1 - number_2)
-
-    elif operation == '*':
-        print('{} * {} = '.format(number_1, number_2))
-        print(number_1 * number_2)
-
-    elif operation == '/':
-        print('{} / {} = '.format(number_1, number_2))
-        print(number_1 / number_2)
-
-    else:
-        print('Você não digitou um operador válido, execute o programa novamente.')
-calculate()
+print(a, "+", b, "=", soma) #Mostrar na tela
+print(a, "-", b, "=", subt) #Mostrar na tela
+print(a, "*", b, "=", mult) #Mos5trar na tela
+print(a, "/", b, "=", divs) #Mostrar na tela
