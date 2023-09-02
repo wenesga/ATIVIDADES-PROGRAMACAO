@@ -12,53 +12,53 @@ alimento = ["arroz","carne","feijao", "farinha", "leite"]
 # indices      0       1        2         3          4
 # invertido   -5      -4       -3        -2         -1
 
-# print("Quarto item =", alimento[3])
-# print("Terceiro item invertido =", alimento[-3])
-# print("Terceiro item pro ultimo =", alimento[2:])
-# print("Do terceiro até o quinto=", alimento[2:4],"\n")
+print("Quarto item =", alimento[3])
+print("Terceiro item invertido =", alimento[-3])
+print("Terceiro item pro ultimo =", alimento[2:])
+print("Do terceiro até o quinto=", alimento[2:4],"\n")
 
-# print(alimento,"\n")
+print(alimento,"\n")
 
 alimento[3] = "arroz" #Difine valor de um item
-# print(alimento,"\n")
+print(alimento,"\n")
 
-# alimento.extend(["abobora", "batata"]) #Adiciona e esse lista na outra
-# print(alimento,"\n")
+alimento.extend(["abobora", "batata"]) #Adiciona e esse lista na outra
+print(alimento,"\n")
 
-# alimento.append("banana") #Adiciona apenas um item
-# print(alimento,"\n")
+alimento.append("banana") #Adiciona apenas um item
+print(alimento,"\n")
 
-# alimento.insert(3, "pêra") #Adiciona em um posição especificada
-# print(alimento,"\n")
+alimento.insert(3, "pêra") #Adiciona em um posição especificada
+print(alimento,"\n")
 
-# alimento.pop() #Removi o último item
-# print(alimento,"\n")
+alimento.pop() #Removi o último item
+print(alimento,"\n")
 
-# alimento.pop(4) #Removi o item especificado pelo índice
-# print(alimento,"\n")
+alimento.pop(4) #Removi o item especificado pelo índice
+print(alimento,"\n")
 
-# alimento.remove("arroz") #Removi o último especificado
-# print(alimento,"\n")
+alimento.remove("arroz") #Removi o último especificado
+print(alimento,"\n")
 
-# alimento.clear() #Limpa a lista
-# print(alimento,"\n")
+alimento.clear() #Limpa a lista
+print(alimento,"\n")
 
 
-# print(alimento.index("carne"),"\n") #Retorna indice do item especificado
+print(alimento.index("carne"),"\n") #Retorna indice do item especificado
 
-# print(alimento.count("arroz"),"\n") #Conta itens especificado
+print(alimento.count("arroz"),"\n") #Conta itens especificado
 
-# print(alimento)
-# alimento.sort() #Ordenar strings
-# print(alimento)
+print(alimento)
+alimento.sort() #Ordenar strings
+print(alimento)
 
-# idades = [20,56,54,32]
-# print(idades)
-# idades.sort() #Ordenar numeros
-# print(idades)
+idades = [20,56,54,32]
+print(idades)
+idades.sort() #Ordenar numeros
+print(idades)
 
-# idades.reverse()
-# print(idades) #Ordem reversa
+idades.reverse()
+print(idades) #Ordem reversa
 
 #COPIA POR REFERENCIA
 alimento2 = alimento #Ocupa mesmo espaço na memoria

@@ -1,0 +1,63 @@
+
+EXEMPLO DE VALIDACAO DE DADOS
+
+Faça um programa em python que leia e valide as seguintes informações:
+    a) Nome: maior que 3 caracteres;
+    b) Idade: entre 0 e 150;
+    c) Salário: maior que zero;
+    d) Sexo: 'f' ou 'm';
+    e) Estado Civil: 's', 'c', 'v', 'd';
+---------------------------------------------------------------------
+Esse programa em Python tem como objetivo ler e validar informações pessoais de um usuário. As informações que serão lidas e validadas são: nome, idade, salário, sexo e estado civil.
+
+Para isso, utilizaremos estruturas de repetição e condicionais para garantir que as informações inseridas estejam dentro das condições estabelecidas.
+
+Segue abaixo um exemplo de código que implementa essa validação:
+---------------------------------------------------------------------
+```python
+while True:
+    nome = input("Digite seu nome: ")
+    if len(nome) > 3:
+        break
+    else:
+        print("Nome inválido! Deve ter mais de 3 caracteres.")
+
+while True:
+    idade = int(input("Digite sua idade: "))
+    if idade >= 0 and idade <= 150:
+        break
+    else:
+        print("Idade inválida! Deve estar entre 0 e 150.")
+
+while True:
+    salario = float(input("Digite seu salário: "))
+    if salario > 0:
+        break
+    else:
+        print("Salário inválido! Deve ser maior que zero.")
+
+while True:
+    sexo = input("Digite seu sexo (f/m): ")
+    if sexo == 'f' or sexo == 'm':
+        break
+    else:
+        print("Sexo inválido! Deve ser 'f' ou 'm'.")
+
+while True:
+    estado_civil = input("Digite seu estado civil (s/c/v/d): ")
+    if estado_civil == 's' or estado_civil == 'c' or estado_civil == 'v' or estado_civil == 'd':
+        break
+    else:
+        print("Estado civil inválido! Deve ser 's', 'c', 'v' ou 'd'.")
+
+# Exibindo as informações validadas
+print("Nome:", nome)
+print("Idade:", idade)
+print("Salário:", salario)
+print("Sexo:", sexo)
+print("Estado Civil:", estado_civil)
+```
+--------------------------------------------------------------------
+Nesse programa, utilizamos loops `while True` para garantir que o usuário insira valores válidos para cada informação. Caso uma informação seja inválida, uma mensagem de erro será exibida e o usuário será solicitado a inserir novamente a informação.
+
+Ao final, as informações válidas serão exibidas.
