@@ -16,10 +16,28 @@ consoantes_lidas = []
 
 # Verificação e contagem de consoantes
 for caractere in vetor:
-    if caractere.isalpha() and caractere.lower() not in "aeiou":
+    
+# A função isalpha() verifica se todos os caracteres na string são letras do alfabeto.
+
+# caractere.lower() not in "aeiou" verifica se o caractere não é uma das cinco vogais em minúsculas. 
+# Se a expressão retornar True, significa que o caractere não é uma vogal; 
+# caso contrário, se retornar False, significa que o caractere é uma vogal.
+    
+    if caractere.isalpha() and caractere.lower() not in "aeiou": 
         contador_consoantes += 1
         consoantes_lidas.append(caractere)
 
 # Impressão do resultado
 print(f"Quantidade de consoantes lidas: {contador_consoantes}")
 print(f"Consoantes lidas: {', '.join(consoantes_lidas)}")
+
+# ' ,'.join(consoantes_lidas) une os elementos da lista consoantes_lidas em uma única string, 
+# usando ', ' como separador. Isso significa que cada elemento da lista será seguido por uma 
+# vírgula e um espaço na string resultante.
+
+
+
+
+
+
+
