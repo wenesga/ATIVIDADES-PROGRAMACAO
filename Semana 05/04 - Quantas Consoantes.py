@@ -29,7 +29,6 @@ for i in vetor:
         contador += 1
         consoantes.append(i)
 
-
 print(f"Caracteres => [{', '.join(caracteres)}]")
 print(f"Vetor Caracteres => [{', '.join(vetor)}]")
 print(f"Consoantes => [{', '.join(consoantes)}]")

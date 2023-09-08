@@ -17,7 +17,7 @@ for a in range(1, 3):
     
     soma = 0
     for n in range(1, 5):
-        nota = float(input(f"Digite a {n}ª Nota do {a}º Alino: "))
+        nota = float(input(f"Digite a {n}ª Nota do {a}º Aluno: "))
         soma = soma + nota
     
     media = soma / 4

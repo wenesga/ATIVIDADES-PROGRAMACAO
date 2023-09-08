@@ -9,19 +9,16 @@ limpa()
     multiplicação e os números.'''
     
 import random
+import functools
 
-numeros = random.sample(range(10), 5)
+numeros = random.sample(range(10), 3)
 
-add = 0
-mul = 1
+soma = sum(numeros)
+mult = functools.reduce(lambda a, b: a * b, numeros)
 
-for i in numeros:
     
-    add = add + i
-    mul = mul * i
-    
-print(f"Soma  dos  Numeros : {numeros} = {add}")
-print(f"Produto dos Numeros: {numeros} = {mul}")
+print(f"Soma  dos  Numeros : {numeros} = {soma}")
+print(f"Produto dos Numeros: {numeros} = {mult}")
 
 
 
