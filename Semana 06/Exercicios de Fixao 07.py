@@ -7,3 +7,13 @@ limpa()
 
 '''7. Crie uma lista de tuplas para representar uma tabela de classiﬁcação de um campeonato.
 Cada tupla deve conter o nome do time e sua pontuação.'''
+
+classificacao_campeonato = [
+    ("Time A", 15),
+    ("Time B", 12),
+    ("Time C", 10),
+    ("Time D", 8),
+    ("Time E", 5)
+]
+
+print(classificacao_campeonato)
