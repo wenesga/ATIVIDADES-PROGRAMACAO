@@ -10,8 +10,6 @@ limpa()
 num1 = int(input("Digite1: "))
 num2 = int(input("Digite2: "))
 
-simbolo = str(input("Digite operacao")
-
 soma = num1 + num2
 
 print(soma)

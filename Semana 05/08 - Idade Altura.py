@@ -8,10 +8,10 @@ limpa()
 '''8. Faça um Programa que peça a idade e a altura de 5 pessoas, armazene cada informação
    no seu respectivo vetor. Imprima a idade e a altura na ordem inversa a ordem lida.'''
    
-lista_idade = []
+lista_idade  = []
 lista_altura = []
 altura = 0
-idade = 0
+idade  = 0
 
 for pessoa in range(1, 3):
     
