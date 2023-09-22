@@ -4,9 +4,16 @@ limpa()
     Disciplina: Programação de Computadores
     @Autor: Wenes Aquino - 2º Períldo                   """
 #-----------------------------------------------------------
-muda = []
+conjunto = set()
 
 for letra in "abcdewerwre":
-  muda.append(letra)
+    conjunto = set(letra).union(conjunto)
 
-print(muda)
+print('Conjunto Letra:', conjunto)
+
+
+
+for letra in "abcdewerwre":
+    conjunto.add('www')
+
+print('Conjunto Letra:', conjunto)

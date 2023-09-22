@@ -3,7 +3,7 @@ limpa()
 """ Arraias - TO - 2023 - UFT - Lincenciatura em Computação
     Disciplina: Programação de Computadores
     @Autor: Wenes Aquino - 2º Períldo                   """
-#-----------------------------------------------------------
+#------------------------------------------------------------------------------
 # EXERCÍCIOS DE FIXAÇÃO
 '''
 1. Crie um programa que conte a quantidade de ocorrências de cada palavra em um texto
@@ -36,20 +36,3 @@ presentes em outra lista.
 10. Crie um programa que leia uma lista de nomes de alunos e suas respectivas notas,
 armazenando essas informações em um dicionário. Em seguida, exiba o nome e a nota
 do aluno com a maior média. '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
