@@ -1,9 +1,11 @@
-limpa = lambda: print("\033[2J\033[;H", end='')
+def limpa(): return print("\033[2J\033[;H", end='')
+
+
 limpa()
 """ Arraias - TO - 2023 - UFT - Lincenciatura em Computação
     Disciplina: Programação de Computadores
     @Autor: Wenes Aquino - 2º Períldo                   """
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 # EXERCÍCIOS DE FIXAÇÃO
 '''6. Escreva um programa que conte a quantidade de caracteres 
       repetidos em uma palavra fornecida pelo usuário.'''
@@ -26,18 +28,3 @@ for letra in palavra:
 
 print('Quantidade de cada letra: ', conte_letras)
 print('Quantidade de letras que repete: ', conte_repete)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,9 +1,11 @@
-limpa = lambda: print("\033[2J\033[;H", end='')
+def limpa(): return print("\033[2J\033[;H", end='')
+
+
 limpa()
 """ Arraias - TO - 2023 - UFT - Lincenciatura em Computação
     Disciplina: Programação de Computadores
     @Autor: Wenes Aquino - 2º Períldo                   """
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 # EXERCÍCIOS DE FIXAÇÃO - 04
 '''
 4. Crie um programa que calcule a média das notas dos alunos de 
@@ -16,19 +18,14 @@ alunos = [{'Wenes': [90, 100, 80]},
 
 soma = 0
 
-for aluno in alunos:   
+for aluno in alunos:
     print(aluno)
-    
+
     for notas in aluno.values():
-        
+
         for nota in notas:
             soma = soma + nota
-        
+
         media = soma / len(notas)
-        print('Média =', media,'\n')
+        print('Média =', media, '\n')
         soma = 0
-        
-        
-        
-        
-        

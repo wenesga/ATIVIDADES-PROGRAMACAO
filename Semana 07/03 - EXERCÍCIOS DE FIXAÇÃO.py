@@ -1,9 +1,11 @@
-limpa = lambda: print("\033[2J\033[;H", end='')
+def limpa(): return print("\033[2J\033[;H", end='')
+
+
 limpa()
 """ Arraias - TO - 2023 - UFT - Lincenciatura em Computação
     Disciplina: Programação de Computadores
     @Autor: Wenes Aquino - 2º Períldo                   """
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 # EXERCÍCIOS DE FIXAÇÃO
 '''
 3. Escreva um programa que encontre e imprima os elementos comuns entre duas listas
