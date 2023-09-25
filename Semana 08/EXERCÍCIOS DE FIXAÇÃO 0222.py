@@ -1,3 +1,4 @@
+import numpy as np
 def limpa(): return print("\033[2J\033[;H", end='')
 
 
@@ -12,15 +13,19 @@ limpa()
    quadrado de cada componente desse vetor, armazenando o resultado em outro 
    vetor. Ambos os conjuntos possuem 10 elementos. Imprima os conjuntos.    '''
 
-conjunto = set()
-sqrt_conjunto = set()
+# Declara dois vetores
+vetor = np.zeros(5)
+vetor_quadrado = np.zeros(5)
 
+# Lê os números reais do usuário
 for i in range(5):
-    num_real = float(input(f"{i+1} numero real: "))
-    conjunto.add(num_real)
+    numero = float(input("Digite um número real: "))
+    vetor[i] = numero
 
-for num_real in conjunto:
-    sqrt_conjunto.add(num_real ** 2)
+# Calcula o quadrado de cada componente do vetor
+for i in range(5):
+    vetor_quadrado[i] = vetor[i] * vetor[i]
 
-print(f'Conjunto: {conjunto}')
-print(f'Quadrado de Conjunto: {sqrt_conjunto}')
+# Imprime os vetores
+print("Vetor original:", vetor)
+print("Vetor dos quadrados:", vetor_quadrado)

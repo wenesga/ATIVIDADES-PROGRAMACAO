@@ -12,15 +12,20 @@ limpa()
    quadrado de cada componente desse vetor, armazenando o resultado em outro 
    vetor. Ambos os conjuntos possuem 10 elementos. Imprima os conjuntos.    '''
 
-conjunto = set()
-sqrt_conjunto = set()
+# Inicializa os vetores
+vetor_original = []
+vetor_quadrado = []
 
-for i in range(5):
-    num_real = float(input(f"{i+1} numero real: "))
-    conjunto.add(num_real)
+# Lê os números reais e os armazena no vetor_original
+for i in range(4):
+    numero = float(input(f"Digite o {i+1}º número real: "))
+    vetor_original.append(numero)
 
-for num_real in conjunto:
-    sqrt_conjunto.add(num_real ** 2)
+# Calcula o quadrado de cada componente e armazena no vetor_quadrado
+for numero in vetor_original:
+    quadrado = numero ** 2
+    vetor_quadrado.append(quadrado)
 
-print(f'Conjunto: {conjunto}')
-print(f'Quadrado de Conjunto: {sqrt_conjunto}')
+# Imprime os conjuntos
+print("Vetor Original:", vetor_original)
+print("Vetor dos Quadrados:", vetor_quadrado)

@@ -14,12 +14,20 @@ limpa()
    deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.'''
 
 
-vetor = np.random.randint(1, 20, 8)
-print("Vetor = ", vetor)
+# Declara um vetor de 8 posições
+vetor = np.zeros(8)
 
-x = vetor[2]
-y = vetor[0]
+# Lê os valores do vetor
+for i in range(8):
+    numero = float(input("Digite o valor da posição %d: " % i))
+    vetor[i] = numero
 
-soma = x + y
+# Lê os valores X e Y
+x = int(input("Digite o valor de X: "))
+y = int(input("Digite o valor de Y: "))
 
-print(f'{x} + {y} = {soma}')
+# Calcula a soma dos valores nas posições X e Y
+soma = vetor[x] + vetor[y]
+
+# Imprime a soma
+print("A soma dos valores nas posições X e Y é: %.2f" % soma)
